@@ -1,0 +1,107 @@
+/*HTML SELECTORS*/
+body {
+  background-color: #FFFCEF;
+  color: #393939;
+}
+
+/*UTILITY*/
+.no-space {
+  padding: 0;
+  margin: 0;
+}
+
+/*BOOK BAR*/
+.book-bar {
+  background-color: #393939;
+  color: #FFFCEF;
+  font-size: 1.25vw;
+}
+
+.book-item {
+  padding: 0;
+}
+
+.book-btn {
+  background-color: #393939;
+  color: #FFFCEF;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  border: none;
+}
+
+.book-btn:hover {
+  background-color: #2f2f2f;
+}
+
+.book-item-box {
+  padding: 0 0 0.5rem;
+  margin-bottom: 2rem;
+  overflow: auto;
+}
+
+.book-new {
+  position: fixed;
+  bottom: 0;
+  width: 16.67%;
+}
+
+.book-new-btn {
+  background-color: #262626;
+  color: #FFFCEF;
+  border: none;
+  padding: 0.75rem;
+}
+
+.book-title {
+  background-color: #262626;
+  padding: 1rem;
+  font-size: 1.75rem;
+}
+
+/*PAGE LIST*/
+.page {
+  background-color: #fcfcf7;
+  padding: 0.5rem;
+  width: 70%;
+  margin: 0.5rem auto;
+  overflow: hidden;
+  text-overflow:ellipsis ellipsis;
+  white-space: pre-line;
+  border: #262626 solid;
+  position: relative;
+}
+
+.page-number {
+  background-color: #fcfcf7;
+  padding: 0 0.2rem;
+  height: auto;
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-style: solid none none solid;
+  border-color: #262626;
+}
+
+.page-scroll {
+  height: 90%;
+  background-color: unset;
+  border: none;
+  color: #8c8c8c;
+}
+
+.page-scroll:hover {
+  color: #262626;
+}
+
+.page-scroll-icon {
+  height: inherit;
+}
+
+/*CENTRE OF CHAOS*/
+.centre-paper {
+  height: 60%;
+  margin: auto;
+}

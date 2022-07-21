@@ -1,0 +1,166 @@
+html, body {
+  height:100%;
+}
+
+body {
+  background-color: #FFFCEF;
+  color: #393939;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.book-list {
+  background-color: #393939;
+  color: #FFFCEF;
+  font-size: 1.25vw;
+}
+
+.book-list-item {
+  padding: 1vw;
+}
+
+.book-list-title {
+  background-color: #262626;
+}
+
+.page-arrow {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.page-list {
+  flex-direction: column;
+}
+
+.page-icon {
+  display: block;
+  width: 10vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+.page-space {
+  border: none;
+  height: 1vw;
+}
+
+.collapse-button {
+  color: #FFFCEF;
+  background-color: #393939;
+  font-size: 1.75vw;
+  padding: 0.5vw 0.25vw 0.5vw 0;
+}
+
+.write-button {
+  position: absolute;
+  top: 15%;
+  right: 0;
+  background-color: #b7dfaf;
+  color: #FFFFFF;
+  writing-mode: vertical-rl;
+  font-size: 3vw;
+  text-align: center;
+  vertical-align: middle;
+  width: 5vw;
+  height: 11vw;
+  border-radius: 1vw 0 0 1vw;
+}
+
+.write-page {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  height: 70%;
+  width: 70%;
+}
+
+.write-rtf {
+  position: absolute;
+  width: 70%;
+  height: auto;
+  left: 10%;
+  top: 16.2%;
+}
+
+.goal-button {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  background-color: #FF7F5B;
+  color: #FFFFFF;
+  writing-mode: vertical-rl;
+  font-size: 3vw;
+  text-align: center;
+  vertical-align: middle;
+  width: 5vw;
+  height: 11vw;
+  border-radius: 1vw 0 0 1vw;
+}
+
+.notes-button {
+  position: absolute;
+  top: 65%;
+  right: 0;
+  background-color: #cdb3da;
+  color: #FFFFFF;
+  writing-mode: vertical-rl;
+  font-size: 3vw;
+  text-align: center;
+  vertical-align: middle;
+  width: 5vw;
+  height: 11vw;
+  border-radius: 1vw 0 0 1vw;
+
+}
+
+.notes-page {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  background-color: #cdb3da;
+  height: 90%;
+  width: 93%;
+  color: #FFFFFF;
+}
+
+
+.goal-page {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  background-color: #FF7F5B;
+  height: 90%;
+  width: 93%;
+  color: #FFFFFF;
+}
+
+.goal-title {
+  text-align: center;
+  font-size: 5vw;
+}
+
+.goal-graph {
+  height: 100%;
+}
+
+.goal-table {
+  height: 100%;
+  width: 100%;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.login-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 2rem;
+  font-size: 3vw;
+  color: #898989;
+}
