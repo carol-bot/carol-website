@@ -9,10 +9,10 @@ function Notes({setWrite, setGoal, setNotes}) {
                 <i className="bi bi-person"></i> Login
             </div>
             <div className="write-button" onClick={setWrite}>
-                <a href="index.html"><i className="bi bi-pencil-square"></i> write</a>
+                <i className="bi bi-pencil-square"></i> write
             </div>
             <div className="goal-button" onClick={setGoal}>
-                <a href="goal.html"><i className="bi bi-star"></i> goal</a>
+                <i className="bi bi-star"></i> goal
             </div>
             <div className="notes-button" onClick={setNotes}>
                 <i className="bi bi-sticky"></i> notes
