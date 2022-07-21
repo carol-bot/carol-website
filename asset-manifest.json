@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/carol-website/static/css/main.2bf0fce4.css",
+    "main.js": "/carol-website/static/js/main.b6691ae8.js",
+    "static/js/787.bc735973.chunk.js": "/carol-website/static/js/787.bc735973.chunk.js",
+    "index.html": "/carol-website/index.html",
+    "main.2bf0fce4.css.map": "/carol-website/static/css/main.2bf0fce4.css.map",
+    "main.b6691ae8.js.map": "/carol-website/static/js/main.b6691ae8.js.map",
+    "787.bc735973.chunk.js.map": "/carol-website/static/js/787.bc735973.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bf0fce4.css",
+    "static/js/main.b6691ae8.js"
+  ]
+}
